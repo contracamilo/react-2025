@@ -4,7 +4,11 @@
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "allowJs": true,
-    "noEmit": true
+    "noEmit": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "verbatimModuleSyntax": false,
+    "types": ["jest", "node", "@testing-library/jest-dom"]
   },
   "include": ["src", "src/__tests__"]
 }

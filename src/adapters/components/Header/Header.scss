@@ -1,0 +1,21 @@
+@import '../../../_variables';
+
+.header {
+  padding: $spacing-4 $spacing-4;
+  margin-bottom: $spacing-8;
+  border-bottom: 1px solid $color-neutral;
+  background: $color-primary;
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: $font-size-2xl;
+    font-weight: bold;
+    color: $color-white;
+  }
+}
