@@ -1,6 +1,5 @@
 import type { FC, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
-import './Navigation.scss';
 
 interface NavigationProps {
   links: { href: string; label: string }[];
