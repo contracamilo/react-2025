@@ -1,4 +1,4 @@
-@import '../../../_variables';
+@use '../abstracts' as *;
 
 .header {
   padding: $spacing-4 $spacing-4;
